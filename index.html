@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Siegen Global Manufacturing Pvt Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#home"><img src="logo.jpeg" alt="Company Logo"></a>
+        </div>
+        <button class="mobile-menu-btn">☰</button>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#">Services ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#software-services">Software Services</a></li>
+                        <li><a href="#engineering-services">Engineering Services</a></li>
+                    </ul>
+                </li>
+                <li><a href="#project-field">Project Field</a></li>
+                <li><a href="projects.html">Projects Completed</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#enquiry">Enquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="slideshow-container">
+        <div class="slide fade">
+            <img src="img1.jpeg" alt="Slide 1">
+            <div class="slide-text">Injection Molds & Press Tools</div>
+        </div>
+        <div class="slide fade">
+            <img src="img2.jpeg" alt="Slide 2">
+            <div class="slide-text">Die Casting &Jigs & Fixtures</div>
+        </div>
+        <div class="slide fade">
+            <img src="img3.jpeg" alt="Slide 3">
+            <div class="slide-text">Sand Casting & SPM Machines</div>
+        </div>
+    </section>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 10px;
+        }
+        .content {
+            max-width: 50%;
+            padding: 20px;
+        }
+        .projects {
+            max-width: 40%;
+            padding: 20px;
+        }
+        .projects a {
+            display: block;
+            color: #007bff;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1 style="color: #333; font-size: 24px;">WELCOME TO SIEGEN GLOBAL MANUFACTURING PVT LTD</h1>
+            <p style="color: #555; font-size: 16px; line-height: 1.5;">
+                Siegen Global Manufacturing Pvt Ltd is a privately owned and professionally managed company 
+                founded by NTTF alumni with over 16 years of experience in the design, manufacturing, and 
+                supply of Injection Moulds, Sheet Metal Dies, Die Casting Dies, and Jigs & Fixtures across India. 
+                We are committed to delivering high-quality tooling solutions that meet customer specifications 
+                efficiently and cost-effectively.
+            </p>
+            <p style="color: #555; font-size: 16px; line-height: 1.5;">
+                With state-of-the-art manufacturing facilities and a highly skilled workforce, we strive to provide 
+                innovative solutions tailored to meet the dynamic demands of the industry. Our dedication to 
+                precision engineering and continuous improvement enables us to maintain superior quality 
+                standards and customer satisfaction. At Siegen, we believe in fostering long-term partnerships 
+                with our clients by ensuring reliability, cost-effectiveness, and cutting-edge technology in every 
+                project we undertake.
+            </p>
+        </div>
+        <div class="projects">
+            <h2 style="color: #333; font-size: 20px;">Projects</h2>
+            <a href="service1.html">Injection Molds</a>
+            <a href="service2.html">Press Tools</a>
+            <a href="service3.html">Die Casting</a>
+            <a href="service4.html">Jigs & Fixtures</a>
+            <a href="service5.html">Sand Casting</a>
+            <a href="service6.html">SPM Machines</a>
+        </div>
+    </div>
+</body>
+    <section id="about" class="about-container">
+        <div class="about-text">
+            <h2>ABOUT US</h2>
+            <p>
+                <strong>Siegen Global Manufacturing Pvt Ltd</strong> is a privately owned and professionally managed company, founded by NTTF alumni with over <strong>16 years of experience</strong> in 
+                <strong>Injection Moulds, Sheet Metal Dies, Die Casting Dies, Jigs & Fixtures</strong>. 
+                We specialize in the <strong>design, manufacturing, and supply</strong> of high-quality systems and sub-systems across India.
+            </p>
+            <p>
+                <strong>SIEGEN</strong> has been proactive in utilizing opportunities, leveraging our formidable strength in <strong>engineering expertise</strong> and a highly skilled workforce. 
+            </p>
+            <p>
+                Our core competencies lie in the <strong>design and manufacturing</strong> of:
+            </p>
+            <ul>
+                <li>Press Tools</li>
+                <li>Precision <strong>Pressure Die Casting</strong></li>
+                <li>High-quality <strong>Moulds & Progressive Dies</strong></li>
+                <li>Custom <strong>Jigs & Fixtures</strong> for various industries</li>
+            </ul>
+        </div>
+        <div class="about-image">
+            <img src="about.jpeg" alt="About Us Image">
+        </div>
+    </section>
+    
+    <div class="services-container">
+        <h2>Mcad Desgin Services</h2>
+        <div class="services-slider">
+            <button class="slide-btn left" onclick="slideLeft()">&#10094;</button>
+            <div class="services-wrapper">
+                <div class="services">
+                    <a href="service1.html" class="service-item">
+                        <img src="service1.jpeg" alt="Service 1">
+                        <div class="overlay">Injection Molds</div>
+                    </a>
+                    <a href="service2.html" class="service-item">
+                        <img src="service2.jpeg" alt="Service 2">
+                        <div class="overlay">Press Tools</div>
+                    </a>
+                    <a href="service3.html" class="service-item">
+                        <img src="service3.jpeg" alt="Service 3">
+                        <div class="overlay">Die Casting</div>
+                    </a>
+                    <a href="service4.html" class="service-item">
+                        <img src="service4.jpeg" alt="Service 4">
+                        <div class="overlay">Jigs & Fixtures</div>
+                    </a>
+                    <a href="service5.html" class="service-item">
+                        <img src="service5.jpeg" alt="Service 5">
+                        <div class="overlay">Sand Casting</div>
+                    </a>
+                    <a href="service5.html" class="service-item">
+                        <img src="service6.jpeg" alt="Service 5">
+                        <div class="overlay">SPM Machines</div>
+                    </a>
+                </div>
+            </div>
+            <button class="slide-btn right" onclick="slideRight()">&#10095;</button>
+        </div>
+    </div>
+
+    <section  id = "software-services" class="software-service-container">
+        <div class="software-service-image">
+            <img src="software_service.jpeg" alt="Software Service Image">
+        </div>
+        <div class="software-service-text">
+            <h2>MCAD Design Services</h2>
+            <p>We specialize in CAD software solutions, offering expertise in industry-leading tools for mechanical and industrial design.</p>
+            <h3>Software Expertise:</h3>
+            <ul>
+                <li>Delcam</li>
+                <li>Mold Flow</li>
+                <li>Catia</li>
+                <li>Pro-e</li>
+                <li>Unigraphics</li>
+                <li>SolidWorks</li>
+                <li>AutoCAD</li>
+                <li>Revit</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="engineering-design" class="engineering-design-container">
+        <h2>Engineering Design Expertise: A Comprehensive Overview</h2>
+        <div class="design-workflow">
+            <div class="workflow-item" id="tool-design">
+                <div class="workflow-icon">
+                    <img src="tool-design-icon.png" alt="Tool Design">
+                </div>
+                <h3>Tool Design</h3>
+                <p>Experience in designing products, molds, and jigs.</p>
+            </div>
+            <div class="workflow-arrow"></div>
+            <div class="workflow-item" id="software-expertise">
+                <div class="workflow-icon">
+                    <img src="software-icon.png" alt="Software Expertise">
+                </div>
+                <h3>Software Expertise</h3>
+                <p>Proficiency in CAD/CAM tools like Unigraphics NX, Pro-E, and AutoCAD.</p>
+            </div>
+            <div class="workflow-arrow"></div>
+            <div class="workflow-item" id="functions">
+                <div class="workflow-icon">
+                    <img src="functions-icon.png" alt="Functions">
+                </div>
+                <h3>Functions</h3>
+                <p>Expertise in 3D modeling, CNC machining, lean design, feasibility studies, and manufacturing standardization.</p>
+            </div>
+        </div>
+
+        <div class="key-results">
+            <h3>Key Results</h3>
+            <div class="key-results-grid">
+                <div class="key-result-item" data-number="1">
+                    <h4>Design & Process Management</h4>
+                    <p>Design, Developing and maintaining process in accordance with internal and external quality guidelines.</p>
+                </div>
+                <div class="key-result-item" data-number="2">
+                    <h4>Quality Optimization</h4>
+                    <p>Negotiating with Tool Design on relaxing the Dimensional Tolerance without compromising on functional quality of the Tool to reduce the Quality Cost.</p>
+                </div>
+                <div class="key-result-item" data-number="3">
+                    <h4>Production Coordination</h4>
+                    <p>Coordinating with various departments for ensuring accomplishment of daily & monthly production targets.</p>
+                </div>
+                <div class="key-result-item" data-number="4">
+                    <h4>Cost Efficiency</h4>
+                    <p>Ensuring cost reduction by implementing low-cost automation, new techniques, and working on productivity improvement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="engineering-services" class="engineering-service-container">
+        <div class="engineering-service-image">
+            <img src="engineering_services.jpeg" alt="Engineering Services Image">
+        </div>
+        <div class="engineering-service-text">
+            <h2>Engineering Services</h2>
+            <p>We provide comprehensive engineering solutions, focusing on:</p>
+            <ul>
+                <li>Estimation and Costing – Accurate cost evaluation to optimize project budgets and planning.</li>
+                <li>Procurement & Vendor Sourcing – Efficient vendor selection and procurement strategies to ensure high-quality and cost-effective sourcing.</li>
+            </ul>
+            <p>Our expertise in these areas ensures streamlined project execution and cost efficiency for our clients.</p>
+        </div>
+    </section>
+
+    <section id="project-field" class="project-fields-container">
+        <div class="project-fields-text">
+            <h2>Project Fields</h2>
+            <p>We specialize in diverse project fields, ensuring innovative and high-quality solutions across various industries:</p>
+            <ul>
+                <li>Automotive – Advanced design and manufacturing for the automotive sector.</li>
+                <li>Electrical & Electronics – Precision engineering for electronic components and systems.</li>
+                <li>Engineering – Comprehensive engineering solutions tailored to industry needs.</li>
+                <li>Aerospace – High-performance aerospace components and structures.</li>
+                <li>Household Parts – Custom-designed household and consumer product components.</li>
+                <li>Proto Manufacturing – Rapid prototyping and manufacturing solutions for product development.</li>
+            </ul>
+        </div>
+        <div class="project-fields-image">
+            <img src="project_fields.jpeg" alt="Project Fields Image">
+        </div>
+
+        <section class="engineering-design-expertise-container">
+            <h2>Engineering Design Expertise: A Comprehensive Overview</h2>
+            <div class="expertise-content">
+                <div class="expertise-item">
+                    <h3>Tool Design</h3>
+                    <p>Experience in designing products, molds, and jigs.</p>
+                </div>
+                <div class="expertise-item">
+                    <h3>Software Expertise</h3>
+                    <p>Proficiency in CAD/CAM tools like Unigraphics NX, Pro-E, and AutoCAD.</p>
+                </div>
+                <div class="expertise-item">
+                    <h3>Functions</h3>
+                    <p>Expertise in 3D modeling, CNC machining, lean design, feasibility studies, and manufacturing standardization.</p>
+                </div>
+            </div>
+        </section>
+        <section class="key-results-container">
+            <h2>Key Results</h2>
+            <div class="results-content">
+                <div class="result-item">
+                    <h3>Key Result 1</h3>
+                    <p>Design, Developing and maintaining process in accordance with internal and external quality guidelines.</p>
+                </div>
+                <div class="result-item">
+                    <h3>Key Result 2</h3>
+                    <p>Negotiating with Tool Design on relaxing the Dimensional Tolerance without compromising on functional quality of the Tool to reduce the Quality Cost and to ensure the functional requirements of the Tooling.</p>
+                </div>
+                <div class="result-item">
+                    <h3>Key Result 3</h3>
+                    <p>Coordinating with various departments for ensuring accomplishment of daily & monthly production targets.</p>
+                </div>
+                <div class="result-item">
+                    <h3>Key Result 4</h3>
+                    <p>Ensuring cost reduction by implementing low-cost automation, new techniques, and working on productivity improvement.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="quality-policy-container">
+            <h2>QUALITY POLICY</h2>
+            <p>We at SIEGEN are committed to manufacture of Injection Molds Press Tools, pressure Die casting, Jig & Fixtures as per Customer Requirement meeting, customer specification within stipulated time with cost effective manner.</p>
+            <p>We are committed to maintain effective quality management systems through continual improvement of our products, process with customer satisfaction.</p>
+            <p>The objective will be maintained measured & analysed periodically to achieve our target.</p>
+        </section>
+         
+<footer>
+    <div class="footer-container">
+        <div>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#software-services">Software Services</a></li>
+                <li><a href="#engineering-services">Engineering Services</a></li>
+                <li><a href="#tool-room">Tool Room Facilities</a></li>
+                <li><a href="#projects">Projects Completed</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#enquiry">Enquiry</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Our Products</h3>
+            <ul>
+                <li>Laser Services Facilities</li>
+                <li>Moulds And Dies</li>
+                <li>Tandem Dies</li>
+                <li>Progressive Dies</li>
+                <li>PDC Dies</li>
+                <li>Checking Fixtures</li>
+                <li>VMC Machine Jobworks</li>
+                <li>CMM Inspection Services</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Our Vision</h3>
+            <p>Creating strong alliance with customers and project development.</p>
+            <p>Becoming a "Preferred Tooling Supplier" for all Tier 1 & Tier 2 suppliers.</p>
+            <p>Developing strong relationships with industries through unbeatable quality and timing.</p>
+        </div>
+        <div>
+            <h3>Contact Us</h3>
+            <p><strong>Siegen Global Manufacturing Pvt Ltd</strong></p>
+            <p>Office: Plot No: PAP A-5/4/9, Phase-IV, Nighoje Chakan, Pune - 410501, India.</p>
+            <p>📞 +91 9370740712</p>
+            <p>📧 Mcad.designs1889@gmail.com</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        Designed by: <a href="#">MID</a> | Hosted by: <a href="#">GID</a> | Promoted by: <a href="#">PBD</a>
+    </div>
+</footer>
+    
+</body>
+</html>
